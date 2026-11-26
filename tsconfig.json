@@ -5,6 +5,7 @@
     "strict": true,
     "allowJs": true,
     "checkJs": false,
+    "noEmit": true,
     "paths": {
       "@/*": ["./src/*"],
       "@/assets/*": ["./assets/*"]
@@ -17,5 +18,9 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
+  ],
+  "exclude": [
+    "backend",
+    "node_modules"
   ]
 }
